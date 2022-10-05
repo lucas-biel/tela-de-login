@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* variáveis de fonte */
+    --primary-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif;
+
+
+    /* variáveis de cor */
+    --principal-color: #2cd0db;
+    --dark-cian: #22a0a8;
+    --light-cian: #6cecf5;
+    --quaternary-color: #12575c;
+    
+
+    font-size: 10px;
+}
+
+body, html {
+    background-color: var(--quaternary-color);
+
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: var(--primary-font);
+}
+
+main {
+    /*
+    outra maneira de centralizar
+    position: relative
+    */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+}
