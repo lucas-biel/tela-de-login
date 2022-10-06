@@ -14,13 +14,14 @@
 
     overflow: hidden;  /* esconder o que tá sobrando */
 
-    width: 38rem;
+    width: 31rem;
     height: 52rem;
 
     border-radius: 2rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.480);
 
     transition: width 0.4s, height 0.4s;
+    transition-timing-function: ease;
 }
 
 #image {
