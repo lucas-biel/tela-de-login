@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 768px) {
     body {
-        background-image: linear-gradient(to bottom, var(--quaternary-color), var(--light-cian));
+        background-image: linear-gradient(to bottom, var(--cor-secundaria), var(--cor-principal));
     }
 
     #login {

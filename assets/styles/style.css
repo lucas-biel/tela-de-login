@@ -24,7 +24,7 @@
 }
 
 #image {
-    background: var(--quaternary-color) url(../images/metal.jpg) left bottom no-repeat;
+    background: var(--cor-secundaria) url(../images/metal.jpg) left bottom no-repeat;
     background-size: cover;
 
     height: 18rem;
