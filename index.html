@@ -24,20 +24,23 @@
                 <p>Seja bem-vindo novamente. Faça login para acessar sua conta.</p>
 
                 <form action="./paginas/login.php" method="post" autocomplete="on">
-                    <div class="campo">
-                        <i class="material-symbols-outlined">account_circle</i>
-                        <input type="email" name="email" id="i-email" placeholder="example@gmail.com" autocomplete="email" required>
-                        <label for="i-email">Login</label>
+                    <div id="campos">
+                        <div class="campo-formulario">
+                            <i class="material-symbols-outlined">account_circle</i>
+                            <input type="email" name="email" id="i-email" placeholder="example@gmail.com" autocomplete="email" required>
+                            <label for="i-email"></label>
+                        </div>
+                        <div class="campo-formulario">
+                            <i class="material-symbols-outlined">key</i>
+                            <input type="password" name="senha" id="i-senha" placeholder="8 - 20 caracteres" autocomplete="current-password" minlength="8" maxlength="20">
+                            <label for="i-senha"></label>
+                        </div>
                     </div>
 
-                    <div class="campo">
-                        <i class="material-symbols-outlined">key</i>
-                        <input type="password" name="senha" id="i-senha" placeholder="8 - 20 caracteres" autocomplete="current-password" minlength="8" maxlength="20">
-                        <label for="i-senha">Senha</label>
+                    <div id="botoes">
+                        <input type="submit" value="Entrar">
+                        <a href="./paginas/nova-senha.html" target="_blank"><i class="material-symbols-outlined">mail</i>Esqueci a senha</a>
                     </div>
-
-                    <input type="submit" value="Entrar">
-                    <a href="./paginas/nova-senha.html" target="_blank">Esqueci a senha <i class="material-symbols-outlined">mail</i></a>
                 </form>
             </div>
         </section>
