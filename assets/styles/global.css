@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root {
@@ -12,6 +13,7 @@
     /* variáveis de cor */
     --cor-principal: #6cecf5;
     --cor-secundaria: #12575c;
+    --cor-terciaria: #22a0a8;
     
 
     font-size: 10px;
