@@ -1,6 +1,7 @@
 @import url(./global.css);
 @import url(./style.css);
 
+/* estilo para tablets */
 @media screen and (min-width: 768px) {
     body {
         background-image: linear-gradient(to bottom, var(--cor-secundaria), var(--cor-principal));
@@ -9,6 +10,7 @@
     #login {
         display: flex;
         width: 80vw;
+        height: 50rem;
     }
 
     #image {
@@ -17,21 +19,37 @@
     }
 
     #form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.6rem;
+
         width: 70%;
     }
 
     #form h1 {
-        text-align: center;
         font-size: 2rem;
-    
-        padding: 1rem;
     }
     
     #form p {
         font-size: 1.5rem;
     }
+
+    #campos {
+        margin-block: 2rem;
+    }
+
+    #botoes {
+        margin-block: 2.6rem;
+    }
+
+    #botoes input[type="submit"] {
+        width: 100%;
+    }
 }
 
+/* estilo para telas grandes */
 @media screen and (min-width: 992px) {
     #login {
         width: 95rem;
@@ -55,5 +73,5 @@
     
     #form p {
         font-size: 1.7rem;
-    }
+    }    
 }
