@@ -16,7 +16,7 @@
     --cor-terciaria: #22a0a8;
     
 
-    font-size: 10px;
+    font-size: 10px;  /* melhor para medidas usando rem */
 }
 
 body, html {
@@ -42,4 +42,22 @@ main {
 
     width: 100vw;
     height: 100vh;
+}
+
+#form {
+    padding: 1rem;
+}
+
+#form h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+#form p {
+    text-align: justify;
+    margin-block: 1rem;
+}
+
+#campos i {
+    color: var(--cor-terciaria);
 }
