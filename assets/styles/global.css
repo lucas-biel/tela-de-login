@@ -30,34 +30,39 @@ body {
     font-family: var(--fonte-principal);
 }
 
-main {
+#conteiner-principal {
     /*
     outra maneira de centralizar
     position: relative
     */
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     width: 100vw;
     height: 100vh;
 }
 
-#form {
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+#conteiner-formulario {
     padding: 1rem;
 }
 
-#form h1 {
+.titulo {
     text-align: center;
     padding: 1rem;
 }
 
-#form p {
+.texto {
     text-align: justify;
-    margin-block: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2.4rem;
 }
 
-#campos i {
+.icone {
     color: var(--cor-terciaria);
 }
