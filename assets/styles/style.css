@@ -1,6 +1,6 @@
 @import url(./global.css);
 
-#login {
+#conteiner-login {
     /*
     outra forma de centralizar
 
@@ -20,31 +20,23 @@
     border-radius: 2rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.480);
 
-    transition: width 0.4s, height 0.4s;
+    transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
 }
 
-#image {
+#conteiner-imagem {
     background: var(--cor-secundaria) url(../images/metal.jpg) left bottom no-repeat;
     background-size: cover;
 
     height: 18rem;
 }
 
-#form h1 {
+.titulo {
     font-size: 1.6rem;
 }
 
-#form p {
+.texto {
     font-size: 1.3rem;
-}
-
-#campos {
-    display: flex;
-    flex-direction: column;
-
-    margin-block: 2.8rem;
-    gap: 1.6rem;
 }
 
 .campo-formulario {
@@ -54,20 +46,13 @@
     gap: 0.6rem;
 }
 
-#botoes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.6rem;
-}
-
-#botoes input[type="submit"] {
+.botao {
     background-color: var(--cor-terciaria);
     color: white;
 
     font-size: 1.2rem;
 
-    width: 60%;
+    width: 150%;
     height: 3.2rem;
     padding: 0.5rem;
 
@@ -77,14 +62,14 @@
     cursor: pointer;
 }
 
-#botoes input[type="submit"]:hover {
+.botao:hover {
     background-color: var(--cor-secundaria);
     color: white;
 
     transition: 0.3s;
 }
 
-#botoes a {
+.link {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -94,7 +79,7 @@
     color: var(--cor-terciaria);
 }
 
-#botoes a:hover {
+.link:hover {
     color: var(--cor-secundaria);
     text-decoration: underline;
 }
