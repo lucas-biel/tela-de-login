@@ -24,24 +24,22 @@
                 <p class="texto">Seja bem-vindo. Faça login para acessar sua conta.</p>
 
                 <form class="conteiner" action="./paginas/login.php" method="post" autocomplete="on">
-                    <div class="conteiner">
-                        <div class="campo-formulario">
-                            <label for="i-email"><i class="material-symbols-outlined icone">account_circle</i></label>
-                            <input type="email" name="email" id="i-email" placeholder="example@gmail.com" autocomplete="email" required>
-                        </div>
-                        
-                        <div class="campo-formulario">
-                            <label for="i-senha"><i class="material-symbols-outlined icone">key</i></label>
-                            <input type="password" name="senha" id="i-senha" placeholder="8 - 20 caracteres" autocomplete="current-password" minlength="8" maxlength="20">
-                        </div>
+                    <div class="campo-formulario">
+                        <label for="i-email"><i class="material-symbols-outlined icone">account_circle</i></label>
+                        <input type="email" name="email" id="i-email" placeholder="example@gmail.com" autocomplete="email" required>
+                    </div>
                     
-                        <div id="botoes" class="conteiner">
-                            <input type="submit" value="Entrar" class="botao">
-                            <a href="./paginas/nova-senha.html" target="_blank" class="link">
-                                <i class="material-symbols-outlined">mail</i>Esqueci a senha
-                            </a>
-                            <a href="./paginas/cadastro.html" target="_blank" class="link">Cadastre-se</a>
-                        </div>
+                    <div class="campo-formulario">
+                        <label for="i-senha"><i class="material-symbols-outlined icone">key</i></label>
+                        <input type="password" name="senha" id="i-senha" placeholder="8 - 20 caracteres" autocomplete="current-password" minlength="8" maxlength="20" required>
+                    </div>
+                
+                    <div id="botoes" class="conteiner">
+                        <input type="submit" value="Entrar" class="botao">
+                        <a href="./assets/pages/nova-senha.html" target="_blank" class="link">
+                            <i class="material-symbols-outlined">mail</i>Esqueci a senha
+                        </a>
+                        <a href="./assets/pages/cadastro.html" target="_blank" class="link">Cadastre-se</a>
                     </div>
                 </form>
             </div>
