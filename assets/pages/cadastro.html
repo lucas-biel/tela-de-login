@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="../styles/estilo-sub-paginas.css">
+</head>
+<body>
+    <main id="conteiner-principal" class="conteiner">
+        <section id="secao-principal">
+            <h1 class="titulo">Faça seu cadastro</h1>
+
+            <form action="./login.php" method="post" autocomplete="on">
+                <div class="campos-formulario">
+                    <div>
+                        <label for="i-nome" class="label">Nome</label>
+                        <input class="input" name="nome" id="i-nome" required>
+                    </div>
+                    <div>
+                        <label for="i-sobrenome" class="label">Sobrenome</label>
+                        <input class="input" name="sobrenome" id="i-sobrenome" required>
+                    </div>
+                    <div>
+                        <label for="i-email" class="label">Email</label>
+                        <input type="email" class="input" name="email" id="i-email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div>
+                        <label for="i-conf-email" class="label">Confirmar email</label>
+                        <input type="email" class="input" name="conf-email" id="i-conf-email" required>
+                    </div>
+                    
+                    <div>
+                        <label for="i-senha" class="label">Senha</label>
+                        <input type="password" class="input" name="senha" id="i-senha" placeholder="8 - 20 caracteres" minlength="8" maxlength="20" required>
+                    </div>
+                    <div>
+                        <label for="i-conf-senha" class="label">Confirmar senha</label>
+                        <input type="password" class="input" name="conf-senha" id="i-conf-senha" minlength="8" maxlength="20" required>
+                    </div>
+                </div>
+                
+                <div class="botoes container">
+                    <input type="submit" value="Confirmar" class="botao botao-cadastro">
+                    <a href="../../index.html" class="link">Voltar</a>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
