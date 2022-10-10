@@ -70,5 +70,14 @@
     .texto {
         font-size: 1.7rem;
         margin-bottom: 4.8rem;
-    }    
+    }
+
+    .botao {
+        width: 130%;
+        font-size: 1.4rem;
+    }
+
+    .link {
+        font-size: 1.4rem;
+    }
 }
