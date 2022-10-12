@@ -8,11 +8,13 @@ body {
 #secao-principal {
     background-color: white;
 
-    width: 60rem;
+    width: 84vw;
     height: 42rem;
 
     border-radius: 2rem;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.480);
+
+    transition: width 0.3s;
 }
 
 .titulo {
@@ -54,9 +56,15 @@ body {
 }
 
 .botao-cadastro {
-    width: 20%;
+    width: 26%;
 }
 
 .link {
     font-size: 1.4rem;
+}
+
+@media screen and (min-width: 768px) {
+    #secao-principal {
+        width: 60rem;
+    }
 }
